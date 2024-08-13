@@ -29,3 +29,6 @@ function fmtcode(){
   echo "Running leptosfmt..."
   leptosfmt -r --stdin .
 }
+
+# add Pulumi to the PATH
+export PATH=$PATH:/home/marcello/.pulumi/bin
