@@ -226,3 +226,7 @@ exec --no-startup-id source ~/.env
 
 
 bindsym $mod+Shift+Ctrl+E exec "i3lock && systemctl suspend "
+
+# Gaps
+gaps inner 5px
+smart_gaps on
