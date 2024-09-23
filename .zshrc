@@ -111,3 +111,4 @@ _fzf_comprun() {
 }
 
 export PATH="$PATH:$HOME/.local/bin:$HOME/Programs/bin"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
